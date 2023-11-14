@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Controverse I.A.</title>
+</head>
+<body>
+    <header id="top">
+        <h1><a href="../page.html"><strong>Intelligences Artificielles</strong></a></h1>
+        <nav>
+            <blockquote id="question">Les I.A. sont elles vraiment intelligentes?</blockquote>
+            <div class="button">
+                <a href="../page.html">Accueil</a>
+            </div>
+            <div class="button">
+                <a href="">Pages</a>
+                <div class="submenu">
+                    <div><a href="page1.html" class="sub">Page 1</a></div>
+                    <div><a href="page2.html" class="sub">Page 2</a></div>
+                    <div><a href="page3.html" class="sub">Page 3</a></div>
+                    <div><a href="page4.html" class="sub">Page 4</a></div>
+                </div>
+            </div>
+            <div class="button">
+                <a href="contact.html">Contacts</a>
+            </div>
+            <div id="burger">
+                <svg width="34px" height="27px">
+                    <rect width="34px" height="4px"/>
+                    <rect y="11" width="34px" height="4px"/>
+                    <rect y="23" width="34px" height="4px"/>
+                </svg>
+                <div id="b_submenu">
+                    <div>
+                        <a href="../page.html">Accueil</a>
+                    </div>
+                    <div>
+                        <a href="contact.html">Contacts</a>
+                    </div>
+                    <div>
+                        <a href="" class="sub">Pages</a>
+                        <div id="b_subpages">
+                            <a href="page1.html" class="sub">Page 1</a>
+                            <a href="page2.html" class="sub">Page 2</a>
+                            <a href="page3.html" class="sub">Page 3</a>
+                            <a href="page4.html" class="sub">Page 4</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Nous contacter </legend>
+                <p>
+                    <span>Vous avez connue notre site via:</span>
+                    <div>
+                        <p class="list">
+                            <input type="radio" name="source" value="search">
+                            <label>Une recherche internet</label>
+                        </p>
+                        <p class="list">
+                            <input type="radio" name="source" value="friend">
+                            <label>Un proche à vous</label>
+                        </p>
+                        <p class="list">
+                            <input type="radio" name="source" value="article">
+                            <label>Un autre article</label>
+                        </p>
+                        <p class="list">
+                            <input type="radio" name="source" value="other">
+                            <label>Autre</label>
+                        </p>
+                    </div>
+                    <p>
+                        <label for="dateVoulue">Date à laquelle vous souhaitez être recontacté</label>
+                        <input type="date" name="date" id="dateVoulue">
+                    </p>
+                    <p>
+                        <label for="email">Email : </label>
+                        <input type="email" name="email" id="email" pattern=".+@globex\.com" size="30" placeholder="Rosenfeld@etu.umontpellier.fr">
+                    </p>
+                    <p>
+                        <textarea placeholder="Si vous avez une remarque" maxlength="500" autocapitalize="sentences" rows="13" cols="70"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Envoyer" id="send">
+                </p> 
+            </fieldset>  
+        </form>
+        <a href="#top"><img alt="flèche" src="../images/fleche.png" id="gotop"></a>
+    </main>
+    <footer>
+        <div><p>Vous avez relevé des bugs?</p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contactez nous ! </a></div>
+        <div><p>Ce site est sponsorisé par © Sony</p><p>Tous droits réservés</p></div>
+        <div><p>Vous voulez en savoir plus sur l'Intelligence Artificielle? </p><a href="https://fr.wikipedia.org/wiki/Intelligence_artificielle">c'est est ici que ça se passe</a></div>
+    </footer>
+</body>
+</html>
